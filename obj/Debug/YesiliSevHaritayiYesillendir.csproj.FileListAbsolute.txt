@@ -1,0 +1,10 @@
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\obj\Debug\YesiliSevHaritayiYesillendir.csproj.GenerateResource.Cache
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\obj\Debug\YesiliSevHaritayiYesillendir.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+D:\VisualStudioProjects\Uygulama1\WindowsFormsApp2\obj\Debug\YesiliSevHaritayiYesillendir.csprojResolveAssemblyReference.cache
