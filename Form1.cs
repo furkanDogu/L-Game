@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
                 }
             }
         }
-        public void uygunNoktalar(int row, int column)
+        public void uygunNoktalar(int row, int column) // gidilebilen kareleri belirliyoruz
         {
 
             beyazaCevir();
@@ -75,7 +75,7 @@ namespace WindowsFormsApp2
                 grdOyunAlanı.Rows[row + 1].Cells[column -2].Style.BackColor = Color.Yellow;
 
         }
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void grdOyunAlanı_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             
             int row = grdOyunAlanı.CurrentCell.RowIndex;
@@ -137,7 +137,7 @@ namespace WindowsFormsApp2
 
         }
 
-        private void dataGridView1_CellStateChanged(object sender, DataGridViewCellStateChangedEventArgs e)
+        private void grdOyunAlanı_CellStateChanged(object sender, DataGridViewCellStateChangedEventArgs e)
         {
             
                 if (e.Cell == null || e.StateChanged != DataGridViewElementStates.Selected)
@@ -202,7 +202,7 @@ namespace WindowsFormsApp2
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnSkor_Click(object sender, EventArgs e)
         {
             MessageBox.Show(this.besties.tumSkorlariGoster());
         }

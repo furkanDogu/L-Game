@@ -38,7 +38,7 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.btnBaslat = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSkor = new System.Windows.Forms.Button();
             this.txtIsim = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.grdOyunAlanı)).BeginInit();
@@ -81,8 +81,8 @@
             this.grdOyunAlanı.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.grdOyunAlanı.Size = new System.Drawing.Size(314, 314);
             this.grdOyunAlanı.TabIndex = 0;
-            this.grdOyunAlanı.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.grdOyunAlanı.CellStateChanged += new System.Windows.Forms.DataGridViewCellStateChangedEventHandler(this.dataGridView1_CellStateChanged);
+            this.grdOyunAlanı.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdOyunAlanı_CellClick);
+            this.grdOyunAlanı.CellStateChanged += new System.Windows.Forms.DataGridViewCellStateChangedEventHandler(this.grdOyunAlanı_CellStateChanged);
             // 
             // grpHarita
             // 
@@ -170,16 +170,16 @@
             this.btnBaslat.UseVisualStyleBackColor = true;
             this.btnBaslat.Click += new System.EventHandler(this.btnBaslat_Click);
             // 
-            // button2
+            // btnSkor
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(345, 271);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(214, 55);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "EN İYİ SKORLAR";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnSkor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSkor.Location = new System.Drawing.Point(345, 271);
+            this.btnSkor.Name = "btnSkor";
+            this.btnSkor.Size = new System.Drawing.Size(214, 55);
+            this.btnSkor.TabIndex = 6;
+            this.btnSkor.Text = "EN İYİ SKORLAR";
+            this.btnSkor.UseVisualStyleBackColor = true;
+            this.btnSkor.Click += new System.EventHandler(this.btnSkor_Click);
             // 
             // txtIsim
             // 
@@ -205,7 +205,7 @@
             this.ClientSize = new System.Drawing.Size(604, 345);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtIsim);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSkor);
             this.Controls.Add(this.btnBaslat);
             this.Controls.Add(this.grpHarita);
             this.Controls.Add(this.grdOyunAlanı);
@@ -230,7 +230,7 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button btnBaslat;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSkor;
         private System.Windows.Forms.TextBox txtIsim;
         private System.Windows.Forms.Label label1;
     }
